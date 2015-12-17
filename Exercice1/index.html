@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Annuaire téléphonique</title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+
+
+	</head>
+	
+	<header>
+		<h1>Annuaire téléphonique</h1>
+	</header>
+
+	<main>
+		<div class="form-recherche">
+
+			<input type="text" id="prenom" class="form-control" placeholder="Prénom">
+			<input type="text" id="nom" class="form-control" placeholder="Nom">
+			<input type="text" id="numero" class="form-control" placeholder="Numéro">
+			<button id="ajouter" class="btn btn-default">Ajouter</button>
+
+
+		<ul id="liste"></ul>
+		
+
+			<input type="text" id="recherche" class="form-control" placeholder="Recherche">
+			<button id="rechercher" class="btn btn-default">Rechercher</button>
+	
+			<div id="resultats"></div>
+		</div>
+	</main>
+
+	<body>
+		<script src="js/annuaire.js"></script>
+	</body>
+</html>
